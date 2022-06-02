@@ -1,0 +1,100 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./logo-fond.jpg);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color: rgb(246, 248, 138);
+    text-align: center;
+}
+
+h3{
+    align-items: center;
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.993);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(102, 98, 98, 0.596);
+}
+h6{
+    display: flex;
+    color: rgb(53, 66, 243);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: rgb(92, 197, 245);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 182, 73);
+}
+
+.carousel-indicators{
+    position: relative !important;
+}
+.carousel-inner{
+    width: 100%;
+}
+.carousel .carousel-item{
+    text-align: center;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgba(124, 121, 121, 0.596);
+}
+
+#serie{
+    margin-top: 4%;
+}
+.years{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quest, #zero, #ice, #happy, #phoenix{
+    margin-top: 10%;
+    background-color: rgba(139, 143, 143, 0.671);
+}
+
+#left{
+    flex-direction: row-reverse;
+}
+
+#city, #dragon{
+    margin-top: 14%;
+    background-color: rgba(139, 143, 143, 0.671);
+}
+
+#blue{
+    margin-top: 22%;
+    background-color: rgba(139, 143, 143, 0.671);
+}
+
+#girls, #mashimo{
+    margin-top: 5%;
+    background-color: rgba(139, 143, 143, 0.671);
+}
+
+#film{
+
+    margin-top: 3%;
+}
